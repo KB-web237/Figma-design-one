@@ -29,12 +29,12 @@
     color: #ffffffb6;
 }
 
-.ul_list li {
+.ul-list li {
     list-style: none;
     padding: 4px 14px;
 }
 
-nav .ul_list {
+nav .ul-list {
     display: flex;
     font-size: 16px;
 }
@@ -50,7 +50,7 @@ nav .ul_list {
     text-align: center;
 }
 
-.ul_list a:hover {
+.ul-list a:hover {
     color: rgb(255, 255, 255);
     transition: 0.4s;
 }
@@ -66,7 +66,7 @@ select:hover {
     color: white;
     transition: 0.4s;
 }
-
+#whitepacework,
 .buttonx {
     display: none;
 }
@@ -110,6 +110,7 @@ select:hover {
     transition: all 0.3s ease-in-out;
 }
 
+#whitepacework,
 #section3,
 .headerproperties {
     padding: 100px 70px 0 70px;
@@ -152,6 +153,7 @@ section.headerproperties {
     margin: 2rem 0;
 }
 
+#whitepacework,
 #section3 {
     background-color: #09335f;
     color: #fff !important;
@@ -202,6 +204,7 @@ section.headerproperties {
 
 }
 
+#clientheader,
 #sponsorsid {
     line-height: 100px;
     font-size: 85px;
@@ -377,7 +380,7 @@ footer {
         background-color: #043873;
     }
 
-    .ul_list {
+    .ul-list {
         flex-direction: column;
         align-items: center;
         row-gap: 15px;
@@ -398,7 +401,7 @@ footer {
         width: 40%;
     }
 
-    .ul_list button {
+    .ul-list button {
         display: none;
     }
 
@@ -454,6 +457,7 @@ footer {
     /* } */
 
     .sponsor,
+    #whitepacework,
     #section3,
     .headerproperties,
     section.headerproperties {
@@ -488,7 +492,7 @@ footer {
         background-color: #043873;
     }
 
-    .ul_list {
+    .ul-list {
         flex-direction: column;
         align-items: center;
         row-gap: 15px;
@@ -505,7 +509,7 @@ footer {
         width: 50%;
     }
 
-    .ul_list button,
+    .ul-list button,
     .buttonx {
         display: none;
     }
