@@ -448,7 +448,7 @@ footer {
   }
 }
 
-@media (max-width: 7px) {
+@media (max-width: 768px) {
   /* .imagecontainer {
    padding: 18px 30px 30px 30px;
   } */
