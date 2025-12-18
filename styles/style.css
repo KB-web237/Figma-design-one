@@ -454,8 +454,7 @@ footer {
    padding: 18px 30px 30px 30px;
   } */
 
-  section.headerproperties,
-  .headerproperties {
+  section.headerproperties {
     padding: 10px !important;
   }
 

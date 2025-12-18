@@ -15,7 +15,7 @@ This is a Whitepace site created using **HTML** and **CSS** given by our teacher
 |____index.html
 
 ```
-## Example Output of the JS documentation
+## Example Output of the Whitepace site
 ![Terminal Output](assets/images/exampleoutput.png)
 
 ---
