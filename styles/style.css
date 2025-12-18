@@ -351,6 +351,9 @@ footer {
     justify-content: left;
 }
 
+#section3y {
+  color: #fff;
+}
 
 @media (max-width: 1152px) {
     .imagecontainer {
