@@ -20,7 +20,7 @@
   justify-content: space-between;
   position: fixed;
   width: 100%;
-  min-height: 70px;
+  min-height: 90px;
 }
 
 .header-contents a {
@@ -157,6 +157,7 @@ section.headerproperties {
 #section3 {
   background-color: #09335f;
   color: #fff !important;
+  padding-bottom: 25px;
 }
 
 .sectionx {
