@@ -20,7 +20,7 @@
   justify-content: space-between;
   position: fixed;
   width: 100%;
-  min-height: 70px;
+  min-height: 90px;
 }
 
 .header-contents a {
@@ -448,10 +448,10 @@ footer {
   }
 }
 
-/* @media (max-width: 768px) {
-  .imagecontainer {
+@media (max-width: 768px) {
+  /* .imagecontainer {
    padding: 18px 30px 30px 30px;
-  }
+  } */
 
   .sponsor,
   #whitepacework,
@@ -545,4 +545,4 @@ footer {
   .lastsection2 {
     padding: 0;
   }
-} */
+}
