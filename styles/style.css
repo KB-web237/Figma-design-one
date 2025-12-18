@@ -449,9 +449,9 @@ footer {
 }
 
 @media (max-width: 768px) {
-  /*.imagecontainer {
-   padding: 18px 30px 30px 30px; 
-  }*/
+  /* .imagecontainer {
+   padding: 18px 30px 30px 30px;
+  } */
 
   .sponsor,
   #whitepacework,
