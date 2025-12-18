@@ -1,10 +1,10 @@
-# Whitepace Website
-This is a Whitepace website created using **HTML** and **CSS** given by our teachers at **Rebase Code Camp**. It was a figma design  assign to be converted to a website using CSS and HTML only. It was a greate task and I learned alot during the project.
+# Whitepace Page
+This is a Whitepace site created using **HTML** and **CSS** given by our teachers at **Rebase Code Camp**. It was a figma design  assign to be converted to a site using CSS and HTML only. It was a greate task and I learned alot during the project.
 
 ---
 
 ## Preview and How to use
-(open `index.html` or the deployed link to view whitepace website)
+(open `index.html` or the deployed link to view whitepace site)
 - Deployed link: [https://kb-web237.github.io/Figma-design-one/]
 
 ## Folder Structure
