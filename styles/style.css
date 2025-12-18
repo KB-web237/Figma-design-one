@@ -10,6 +10,7 @@
   background-size: cover;
   background-position: center center;
   padding-bottom: 140px;
+  overflow: hidden;
 }
 
 .header-contents {
@@ -452,6 +453,11 @@ footer {
   /* .imagecontainer {
    padding: 18px 30px 30px 30px;
   } */
+
+  section.headerproperties,
+  .headerproperties {
+    padding: 10px !important;
+  }
 
   .sponsor,
   #whitepacework,
