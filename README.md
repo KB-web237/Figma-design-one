@@ -38,7 +38,7 @@ This is a Whitepace site created using **HTML** and **CSS** given by our teacher
 
 ## Author
 - Name: **KBrandN**
-- Github: [https://github.com/KB-web237]
+- Github: [https://github.com/komoforbrandon]
 
 ---
 
