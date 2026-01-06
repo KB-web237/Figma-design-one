@@ -460,10 +460,10 @@ footer {
 }
 
 @media (max-width: 768px) {
-  /* .imagecontainer {
+  .imagecontainer {
    padding: 18px 30px 30px 30px;
-  } */
-  
+  }
+
   .header {
     padding-bottom: 30px;
   }
@@ -485,14 +485,13 @@ footer {
   .whiteinfo {
     text-align: center;
   }
- 
+
   .imagecontainer {
     width: 100%;
     padding: 4px;
     margin: 0;
   }
 
-  
   #chooseheader,
   .whiteinfo h2,
   #clientheader,
@@ -500,7 +499,7 @@ footer {
     font-size: 48px;
     line-height: 40px;
   }
-   
+
   .headerproperties {
     padding: 0;
     margin: 2px auto;
@@ -543,7 +542,6 @@ footer {
 
   .chooseplanx {
     width: 100%;
-
   }
 
   .scrolebar {
