@@ -9,7 +9,8 @@
   background: radial-gradient(#04387396, #0438736e), url("../assets/images/backgroundimg.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
-  padding-bottom: 140px;
+  padding-bottom: 90px;
+  padding-top: 30px;
   overflow: hidden;
 }
 
@@ -22,6 +23,7 @@
   position: fixed;
   width: 100%;
   min-height: 90px;
+  margin-top: -30px;
 }
 
 .header-contents a {
@@ -209,6 +211,7 @@ section.headerproperties {
   line-height: 100px;
   font-size: 85px;
   text-align: center;
+  overflow: hidden;
 }
 
 .sponsor {
@@ -358,9 +361,12 @@ footer {
     padding: 12px 25px;
   }
 
-  .whiteinfo h2 {
-    font-size: 70px;
-    line-height: 70px;
+  #chooseheader,
+  .whiteinfo h2,
+  #clientheader,
+  #sponsorsid {
+    font-size: 48px;
+    line-height: 40px;
   }
 
   .whiteinfo p {
@@ -393,7 +399,7 @@ footer {
 
   .plansx {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
@@ -418,7 +424,7 @@ footer {
 
   .clientscomments {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
@@ -453,6 +459,10 @@ footer {
   /* .imagecontainer {
    padding: 18px 30px 30px 30px;
   } */
+  
+  .header {
+    padding-bottom: 30px;
+  }
 
   section.headerproperties {
     padding: 10px !important;
@@ -465,15 +475,36 @@ footer {
   section.headerproperties {
     display: block;
     padding-top: 50px;
+    overflow: hidden;
   }
 
   .whiteinfo {
     text-align: center;
   }
+ 
+  .imagecontainer {
+    width: 100%;
+    padding: 4px;
+    margin: 0;
+  }
 
-  .whiteinfo h2 {
-    font-size: 45px;
+  
+  #chooseheader,
+  .whiteinfo h2,
+  #clientheader,
+  #sponsorsid {
+    font-size: 48px;
     line-height: 40px;
+  }
+   
+  .headerproperties {
+    padding: 0;
+    margin: 2px auto;
+    margin-top: 25px;
+  }
+
+  #firstimg {
+    padding: 0 4px;
   }
 
   .whiteinfo p {
@@ -501,13 +532,26 @@ footer {
 
   .plansx {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    margin-left: -13rem;
+  }
+
+  .chooseplanx {
+    width: 100%;
+
+  }
+
+  .scrolebar {
+    overflow-x: scroll;
   }
 
   .plansx .plan1,
   .plan2 {
-    width: 50%;
+    font-size: 14px;
+    line-height: 28px;
+    width: 300px;
+    height: min-content;
+    margin: 30px;
   }
 
   .ul-list button,
@@ -525,19 +569,37 @@ footer {
 
   .clientscomments {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    overflow-x: scroll;
   }
 
   .client1,
   .client2 {
-    width: 50%;
+    width: 340px !important;
+    height: 400px;
+  }
+
+   .client1 {
+    margin-left: 40rem;
+  }
+
+  .client1 img,
+  .client2 img {
+    width: 150px !important;
+    height: 100px;
+    margin: auto;
   }
 
   .footercontains {
     display: grid;
     grid-template-columns: 50% 50%;
     overflow: hidden;
+    column-gap: 30px;
+  }
+
+  .footerdetails {
+    padding: 20px;
+    width: fit-content;
   }
 
   .lastsection {

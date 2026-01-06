@@ -71,7 +71,7 @@
         </button>
       </div>
       <div class="imagecontainer">
-        <img src="assets/images/Image-container.png" alt="image container" height="90%" width="100%" />
+        <img src="assets/images/Image-container.png" alt="image container" id="firstimg" height="100%" width="100%" />
       </div>
     </div>
   </header>
@@ -89,7 +89,7 @@
         </button>
       </div>
       <div class="imagecontainer">
-        <img src="assets/images/Image-container.png" alt="image container" height="90%" width="100%" />
+        <img src="assets/images/Image-container.png" alt="image container" height="100%" width="100%" />
       </div>
     </section>
     <section class="headerproperties">
@@ -140,57 +140,60 @@
 
     <section class="chooseplan">
       <div class="chooseplanx">
-        <h2>Choose Your Plan</h2>
+        <h2 id="chooseheader">Choose Your Plan</h2>
         <p id="paragraphx">
           Wether you want to get organized, keep your personal life on track , or boost workplace productivity, Evernote
           has the right plan for you
         </p>
-        <div class="plansx">
-          <div class="plan1">
-            <p><b>Free </b></p>
-            <h3><b>&dollar;0</b></h3>
-            <p>Capture ideas and find them quickly</p>
-            <ul>
-              <li>Sync limited devices</li>
-              <li>20GB monthly uploads</li>
-              <li>300GB max. note size</li>
-              <li>Customize Home dashboard and access extra widgers.</li>
-              <li>Connect primary Google Calendar accounts</li>
-              <li>Add due dates,and notifications to your tasks</li>
-              <button type="submit" class="bplan1">Get Started.</button>
-            </ul>
-          </div>
-          <div class="plan2">
-            <p><b>Personal </b></p>
-            <h3 class="dollarx"><b>&dollar;11.99</b></h3>
-            <p>Keep home and family on track</p>
-            <ul>
-              <li>Sync unlimited devices</li>
-              <li>10GB monthly uploads</li>
-              <li>200GB max. note size</li>
-              <li>Customize Office dashboard and access extra widgers</li>
-              <li>Connect primary Apple Calendar account</li>
-              <li>Add due dates, reminders, and notifications to your tasks</li>
-              <button type="submit" class="bplan2">Get Started</button>
-            </ul>
-          </div>
-          <div class="plan1">
-            <b>
-              <p>Organization </p>
-              <h3>&dollar;49.99 </h3>
-            </b>
-            <p>Capture ideas and find them quickly</p>
-            <ul>
-              <li>Sync unlimited devices.</li>
-              <li>40GB monthly uploads</li>
-              <li>500GB max. note size</li>
-              <li>Customize Home dashboard and access widgers</li>
-              <li>Connect primary Microsoft Calendar account</li>
-              <li>Add correct dates, reminder, and notification to your tasks</li>
-              <button type="submit" class="bplan1">Get Started,</button>
-            </ul>
+        <div class="scrolebar">
+          <div class="plansx">
+            <div class="plan1">
+              <p><b>Free </b></p>
+              <h3><b>&dollar;0</b></h3>
+              <p>Capture ideas and find them quickly</p>
+              <ul>
+                <li>Sync limited devices</li>
+                <li>20GB monthly uploads</li>
+                <li>300GB max. note size</li>
+                <li>Customize Home dashboard and access extra widgers.</li>
+                <li>Connect primary Google Calendar accounts</li>
+                <li>Add due dates,and notifications to your tasks</li>
+                <button type="submit" class="bplan1">Get Started.</button>
+              </ul>
+            </div>
+            <div class="plan2">
+              <p><b>Personal </b></p>
+              <h3 class="dollarx"><b>&dollar;11.99</b></h3>
+              <p>Keep home and family on track</p>
+              <ul>
+                <li>Sync unlimited devices</li>
+                <li>10GB monthly uploads</li>
+                <li>200GB max. note size</li>
+                <li>Customize Office dashboard and access extra widgers</li>
+                <li>Connect primary Apple Calendar account</li>
+                <li>Add due dates, reminders, and notifications to your tasks</li>
+                <button type="submit" class="bplan2">Get Started</button>
+              </ul>
+            </div>
+            <div class="plan1">
+              <b>
+                <p>Organization </p>
+                <h3>&dollar;49.99 </h3>
+              </b>
+              <p>Capture ideas and find them quickly</p>
+              <ul>
+                <li>Sync unlimited devices.</li>
+                <li>40GB monthly uploads</li>
+                <li>500GB max. note size</li>
+                <li>Customize Home dashboard and access widgers</li>
+                <li>Connect primary Microsoft Calendar account</li>
+                <li>Add correct dates, reminder, and notification to your tasks</li>
+                <button type="submit" class="bplan1">Get Started,</button>
+              </ul>
+            </div>
           </div>
         </div>
+
       </div>
     </section>
     <section class="headerproperties sectionx" id="whitepacework">
@@ -276,10 +279,11 @@
             </div>
           </div>
         </div>
-        <div class="client2">
+        <div class="client2" id="secondclient">
           <img src="assets/images/quotewhite.png" alt="image quotes"><br>
           <br>
-          <p>Whitepate is designed as serious elaboration tool for businesses that is a full project management solutions.
+          <p>Whitepate is designed as serious elaboration tool for businesses that is a full project management
+            solutions.
           </p><br>
           <hr>
           <div class="subimg">
