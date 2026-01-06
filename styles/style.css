@@ -397,6 +397,10 @@ footer {
     display: block;
   }
 
+  .scrolebar {
+    overflow-x: scroll;
+  }
+
   .plansx {
     display: flex;
     flex-direction: row;
@@ -534,6 +538,7 @@ footer {
     display: flex;
     flex-direction: row;
     margin-left: -13rem;
+    width: 1500px;
   }
 
   .chooseplanx {
