@@ -380,7 +380,6 @@ footer {
     background-color: #043873;
     padding: 8px;
     width: 100%;
-    transform: translateX(-100%);
   }
 
   select {
@@ -542,10 +541,6 @@ footer {
 
   .chooseplanx {
     width: 100%;
-  }
-
-  .scrolebar {
-    overflow-x: scroll;
   }
 
   .plansx .plan1,
